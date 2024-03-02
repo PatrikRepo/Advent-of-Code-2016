@@ -1,11 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 
 void parseInput(std::string &compressedLine)
 {
-	std::string line;
-
 	std::ifstream input("input.txt");
 	if(input.is_open())
 	{
