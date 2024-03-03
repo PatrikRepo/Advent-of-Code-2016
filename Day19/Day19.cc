@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 
 void parseInput(unsigned int &numberOfElves)
 {
