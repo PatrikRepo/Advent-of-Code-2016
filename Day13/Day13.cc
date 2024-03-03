@@ -136,11 +136,11 @@ int main()
 	parseInput(magicNumber);
 	
 	std::string line;
-	for(int i=0; i<100; i++)
+	for(int i=0; i<50; i++)
 	{
 		line += '#';
 	}
-	for(int i=0; i<100; i++)
+	for(int i=0; i<50; i++)
 	{
 		map.push_back(line);
 	}
