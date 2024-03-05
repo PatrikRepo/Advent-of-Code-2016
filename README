@@ -1,1 +1,6 @@
-My solutions for Advent of Code 2015. Written in C++, input files not submitted. 
+My solutions for Advent of Code 2015. Written in C++, input files not submitted. Day 5, 14 and 17 need to be compiled with -lcrypto.
+Day 5 has a slow execution time of approximately 50 seconds on my computer due to MD5 hashing. 
+Day 14 has a slow execution time of approximately 50 seconds on my computer for the same reason.
+Day 23 has a slow execution time of approximately 20 seconds on my computer because I couldn't be arsed to implement a multiplication function when it is only 20 seconds on my computer.
+Day 24 was the worst task yet due to how big my solution became, which involved many ideas from other days in other years. Basically a fun combination of several. Quite quick, though, approx 0.03 seconds on my computer.
+
