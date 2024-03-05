@@ -114,10 +114,14 @@ uint64_t followInstructions(const std::vector<std::string> &instructions)
 	{
 		for(int j=0; j<50; j++)
 		{
-			std::cout << screen[i][j];
 			if(screen[i][j] == 1)
 			{
+				std::cout << screen[i][j];
 				result += 1;
+			}
+			else
+			{
+				std::cout << ' ';
 			}
 		}
 		std::cout << '\n';
