@@ -73,7 +73,6 @@ uint64_t findABA(const std::vector<std::string> &messages)
 			normal.erase(pos+1, endpos-pos-1);
 			pos = normal.find_first_of("[",pos+1);
 		}
-		std::cout << normal << '\n' << hyper << '\n';
 		bool found = false;
 		for(unsigned int i=0; i<normal.length()-2; i++)
 		{
